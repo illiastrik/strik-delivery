@@ -1,0 +1,21 @@
+@use "scss-reset/reset";
+body {
+  font-family: "Outfit", sans-serif;
+  color: #2d2d2d;
+  background: linear-gradient(to right, #fff6da, #ffffff),
+    linear-gradient(to bottom, #fff9e6, #ffffff);
+}
+.container {
+  // position: relative;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 20px 20px 0px 20px;
+  @media (max-width: 882px) {
+    padding: 10px 5px 0px 0px;
+  }
+}
+.app {
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: -105px 200px 248px 20px rgb(255, 255, 255);
+}
